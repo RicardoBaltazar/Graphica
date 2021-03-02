@@ -1,0 +1,24 @@
+
+
+/*HEADER*/
+.page-home header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 1vh 5vw;
+}
+
+.page-home header img{
+    border-radius: 50%;
+    width: 60px;
+}
+
+.page-home header ul {
+    display: flex;
+    align-items: center;
+}
+
+.page-home header ul li {
+    margin-left: 25px;
+}
