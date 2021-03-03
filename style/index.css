@@ -17,4 +17,13 @@ a {
 
 li {
     list-style-type: none;
+    border-right: 1px solid #4dc6ec;
+    padding-right: 1.5rem;
+    color: #1f1f1f;
+    transition: 0.2s;
+    cursor:pointer;
+}
+
+li:hover{
+    color: #4dc6ec;
 }
