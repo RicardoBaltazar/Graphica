@@ -1,14 +1,15 @@
 #slide {
     /* width: 80vw; */
-    padding: 0.8rem 0;
-    margin-top: 2rem;
+    padding: 0rem 0rem;
     /* border: 1px solid red; */
-    max-width: 80vw;
+    width: 80vw;
     margin: 0 auto;
-    background-color: #f0f0f0;
-    height: 30.2vw;
+    
+    /* height: 30vw; */
     /* max-height: 150px; */
     position: relative;
+    display: flex;
+    justify-content: center;
   }
   
   #slide img {

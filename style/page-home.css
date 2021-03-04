@@ -6,7 +6,8 @@
     justify-content: space-between;
     align-items: center;
     background-color: #fff;
-    padding: 1vh 5vw;
+    padding: 1vh 10vw;
+    margin-bottom: 0.5rem;
 }
 
 .page-home header img{
