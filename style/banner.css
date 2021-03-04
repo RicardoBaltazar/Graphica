@@ -1,6 +1,5 @@
 #slide {
-    /* width: 80vw; */
-    padding: 0rem 0rem;
+    /* width: 80vw; */  
     /* border: 1px solid red; */
     width: 80vw;
     margin: 0 auto;
@@ -15,7 +14,7 @@
   #slide img {
     opacity: 0;
     position: absolute;
-    width: 100%;
+    width: 80vw;
     /* height: 100%; */
     object-fit: cover;
     transition: opacity 800ms;

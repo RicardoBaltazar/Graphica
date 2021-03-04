@@ -1,6 +1,6 @@
-let time = 5000
-let currentImageIndex = 0
-let images = document.querySelectorAll("#slide img")
+let time = 5000;
+let currentImageIndex = 0;
+let images = document.querySelectorAll("#slide img");
 let max = images.length
 
 function nextImage() {
