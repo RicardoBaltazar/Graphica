@@ -24,6 +24,11 @@
     margin-left: 25px;
 }
 
+.menu-selected {
+    color: #4dc6ec;
+    font-weight: bold;
+}
+
 /*MAIN*/
 
 main {
@@ -33,20 +38,47 @@ main {
     align-items: center;
     border: 2px red solid;
     margin-top: 75vh;
+    text-align: left;
 }
 
-main .options {
+main .title-products{
+    color: #4dc6ec;
+    margin-left: 0.5rem;
+    padding: 1rem 0;
+}
+
+main .products {
     display: flex;
 }
 
-main .options a {
-    margin: 0 3.8rem;
-    border: 2px solid #f0f0f0;
-    padding: 0.5rem 1.5rem;
+main .products .div-product{
+    width: 15vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    margin: 0 0.5rem 2rem 0.5rem;
+    padding: 0.2rem 0;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
 }
 
-main .options a:hover {
-    color: #4dc6ec;
-    transition: 0.2s;
-    border: 2px solid #4dc6ec;
+main .products .div-product img{
+    width: 95%;
+    margin-bottom: 1rem;
+}
+
+main .products .div-product .name-product{
+    color:#000;
+    font-weight: bold;
+    font-size: 1rem;
+}
+main .products .div-product p {
+    color:grey;
+    font-size: 1rem;
+}
+main .products .div-product p span {
+    color:#4dc6ec;
+    font-weight: bold;
+    font-size: 1.1rem;
 }
